@@ -59,3 +59,29 @@
         transform: translateY(-5px)
     }
 }
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutUs {
+    height: auto;
+    min-height: 40vh;
+    width: 100%;
+    padding: 1rem;
+}#services-wrapper {
+    padding: 1rem;
+    position: relative;
+}
+/*styling section two begins*/
+#services {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    min-height: 40vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
