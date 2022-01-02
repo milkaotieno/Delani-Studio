@@ -8,8 +8,7 @@
     align-items: center;
     height: 100vh;
 }
-
-#header p {
+#header p{
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -21,11 +20,9 @@
     align-items: center;
     margin-top: auto;
 }
-
 #logo {
     margin-bottom: 1rem;
 }
-
 #mouseIcon {
     margin: auto auto 5vh auto;
     animation: bounce 2s infinite;
@@ -63,6 +60,7 @@
     }
 }
 
+/* Second Section */
 .second {
     display: flex;
     justify-content: center;
@@ -74,14 +72,11 @@
     min-height: 40vh;
     width: 100%;
     padding: 1rem;
-}
-
-#services-wrapper {
+}#services-wrapper {
     padding: 1rem;
     position: relative;
 }
 
-/*styling section two begins*/
 #services {
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-size: cover;
@@ -92,7 +87,6 @@
     position: absolute;
     left: 0;
 }
-
 /* What We Do */
 #thirdSection {
     height: auto;
@@ -122,6 +116,23 @@
     font-style: italic;
     opacity: 0.7;
 }
+#socialMedia {
+    height: auto;
+    width: 100%;
+}
+
+#icons {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#icons a {
+    padding: 1rem;
+}
+
 /* Media Queries */
 @media screen and (min-width: 480px)
  {
@@ -178,21 +189,4 @@
 .project-title{
     padding-bottom: 0.5rem;
     border-bottom: 0.2rem solid black;
-}
-
-#socialMedia {
-    height: auto;
-    width: 100%;
-}
-
-#icons {
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#icons a {
-    padding: 1rem;
 }
