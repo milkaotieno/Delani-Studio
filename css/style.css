@@ -1,0 +1,49 @@
+#header {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#header p{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#headerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+#logo {
+    margin-bottom: 1rem;
+}
+#mouseIcon {
+    margin: auto auto 5vh auto;
+    animation: bounce 2s infinite;
+}
+
+#mouseIcon:hover {
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: translateY(-5px)
+    }
+
+    50% {
+        transform: translateY(10px)
+    }
+
+    100% {
+        transform: translateY(-5px)
+    }
+}
+
+@keyframes bounce {}
