@@ -1,12 +1,24 @@
-#header {
+ * {
+     width: auto;
+
+     padding: 0rem;
+    font-family: 'Overpass', sans-serif;
+    font-size: 12px;
+
+ }
+
+ #header {
     background-image: url("../assets/backgrounds/h_img.jpg");
-    background-size: cover;
+    background-size: cover;    
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
+    opacity: 0.9;
+    /*width: 100%;*/
+    padding: 230px 30px 30px;
 }
 #header p{
     color: white;
@@ -30,6 +42,10 @@
 
 #mouseIcon:hover {
     animation-play-state: paused;
+}
+
+.amazing {
+    color: white;
 }
 
 @-webkit-keyframes bounce {
@@ -59,20 +75,131 @@
         transform: translateY(-5px)
     }
 }
+/*about section*/
 
-/* Second Section */
-.second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 25pt;
 }
 
-#aboutUs {
+.services {
+    background-image: url("../assets/backgrounds/s_image.jpg"); 
+    margin-top: 30px;
+    height: 48vh;
+}
+
+.servicetext {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30pt;
+    color: white;
+    padding: 30px;
+}
+/*what we do section*/
+.whatwedo{
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.whatwedo img {
+    max-width: 70px;
     height: auto;
-    min-height: 40vh;
-    width: 100%;
-    padding: 1rem;
-}#services-wrapper {
+}
+
+.card-deck {
+    display: flex;
+}
+
+.whatwedo .card {
+  width: 35%;
+  margin: 20px;
+  align-content: center;
+  padding: 5px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio {
+    text-align: center;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.portfolio .card-deck {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+
+.portfolio .card {
+    max-width: 25%;
+
+}
+
+.img_description {
+    position: absolute;
+    top: 25;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color:black;
+    
+    opacity: 0;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    transition: opacity .2s, visibility .2s;
+  }
+   
+  .img_description_show {
+    visibility: visible;
+    opacity: 0.60;
+    background-color: #fff;
+  }
+
+.bottom-deck {
+    margin-top: 30px;
+}
+
+/* Contact Us section */
+#contactUsWrapper {
+    position: relative;
+}
+
+#contactUs {
+    
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-bottom: 2rem;
+    min-width: 100%;
+    left: 0;
+    right: 0;
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 30rem;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+#services-wrapper {
     padding: 1rem;
     position: relative;
 }
@@ -87,51 +214,8 @@
     position: absolute;
     left: 0;
 }
-/* What We Do */
-#thirdSection {
-    height: auto;
-}
 
-/* Contact Us section */
-#contactUsWrapper {
-    position: relative;
-}
 
-#contactUs {
-    height: auto;
-    padding-bottom: 2rem;
-    min-width: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    background-image: url("../assets/backgrounds/c_image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-}
-
-.form-control::-webkit-input-placeholder {
-    color: white;
-    font-style: italic;
-    opacity: 0.7;
-}
-#socialMedia {
-    height: auto;
-    width: 100%;
-}
-
-#icons {
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#icons a {
-    padding: 1rem;
-}
 
 /* Media Queries */
 @media screen and (min-width: 480px)
@@ -189,4 +273,26 @@
 .project-title{
     padding-bottom: 0.5rem;
     border-bottom: 0.2rem solid black;
+}
+
+ 
+.socialm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.socialm div {
+    margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+
 }
