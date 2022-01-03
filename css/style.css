@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     opacity: 0.9;
     /*width: 100%;*/
     padding: 230px 30px 30px;
@@ -35,6 +35,7 @@
 #mouseIcon {
     margin: auto auto 5vh auto;
     animation: bounce 2s infinite;
+    margin-bottom: 20rem;
 }
 
 #mouseIcon:hover {
@@ -43,6 +44,7 @@
 
 .amazing {
     color: white;
+    margin-bottom: 32.5rem;
 }
 
 @-webkit-keyframes bounce {
