@@ -1,8 +1,8 @@
 
-Dalani Studio
+## Dalani Studio
 
 #### By 
-Otieno Milka
+Otieno Milka | Sotware Programmer
 ## Description
 This is a landing page for a Delani studio that has different sections, welcome , about us services ,what we do, portfolio and contact us.
 
@@ -26,8 +26,7 @@ Click on the link provided bellow to view the site.
 
 
 ### Known Bugs
-The page when on full screen the flag on the topmost part streches but on minimizing the screen it works perfectly well.
-Any suggestion or idea on how to go about it is welcomed.
+Most bugs encountered were resolved
 
 ## Support and contact details
 * Incase of any question,concern or idea please DO NOT hesitate to contact me at milkaotieno.student@moringaschool.com

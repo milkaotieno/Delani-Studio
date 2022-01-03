@@ -1,7 +1,4 @@
  * {
-     width: auto;
-
-     padding: 0rem;
     font-family: 'Overpass', sans-serif;
     font-size: 12px;
 
@@ -271,7 +268,7 @@
     transform: scale(1.25);
 }
 .project-title{
-    padding-bottom: 0.5rem;
+    
     border-bottom: 0.2rem solid black;
 }
 
