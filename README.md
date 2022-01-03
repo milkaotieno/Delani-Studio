@@ -8,7 +8,7 @@ This is a landing page for a Delani studio that has different sections, welcome 
 
 
 ### Live Link
-to be added
+* https://milkaotieno.github.io/Delani-Studio/
 
 
 
@@ -22,7 +22,8 @@ to be added
 ### Installation Process
 ****
 Click on the link provided bellow to view the site.
-* link to be added
+* https://milkaotieno.github.io/Delani-Studio/
+* for installation:- git clone https://github.com/milkaotieno/Delani-Studio.git
 
 
 ### Known Bugs
